@@ -1,0 +1,35 @@
+{
+  "name": "image-processing",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "run": "node index.js"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellyzeul/image-processing.git"
+  },
+  "author": "Ellyzeul",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Ellyzeul/image-processing/issues"
+  },
+  "homepage": "https://github.com/Ellyzeul/image-processing#readme",
+  "dependencies": {
+    "@canvas/image-data": "^1.0.0",
+    "async": "^3.2.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.1",
+    "jest": "^28.1.1"
+  }
+}
